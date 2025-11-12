@@ -1,0 +1,22 @@
+[
+  {
+    "front": "What does HTML stand for?",
+    "back": "HyperText Markup Language"
+  },
+  {
+    "front": "What does CSS stand for?",
+    "back": "Cascading Style Sheets"
+  },
+  {
+    "front": "What is React?",
+    "back": "A JavaScript library for building user interfaces"
+  },
+  {
+    "front": "What is JavaScript?",
+    "back": "A programming language commonly used for web development"
+  },
+  {
+    "front": "What is Node.js?",
+    "back": "A JavaScript runtime for server-side development"
+  }
+]

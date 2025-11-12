@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": ["Paris", "London", "Berlin", "Madrid"],
+    "correct": "Paris"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answers": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correct": "Mars"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answers": ["Vincent van Gogh", "Leonardo da Vinci", "Michelangelo", "Raphael"],
+    "correct": "Leonardo da Vinci"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correct": "Pacific Ocean"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "answers": ["1943", "1944", "1945", "1946"],
+    "correct": "1945"
+  }
+]
