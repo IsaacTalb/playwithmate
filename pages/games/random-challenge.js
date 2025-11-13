@@ -6,7 +6,7 @@ export default function RandomChallenge() {
 
   return (
     <Layout>
-      <div className="max-w-xl mx-auto p-4">
+      <div>
         <h1 className="text-2xl font-bold mb-6">Random Challenge</h1>
         <div className="bg-white p-6 rounded-lg shadow">
           <p className="text-lg text-center mb-8">Here's a random challenge for you:</p>

@@ -18,7 +18,7 @@ export default function TopicSpinner() {
 
   return (
     <Layout>
-      <div className="max-w-xl mx-auto p-4">
+      <div>
         <h1 className="text-2xl font-bold mb-6">Topic Spinner</h1>
         <div className="bg-white p-6 rounded-lg shadow">
           <div className="bg-gradient-to-r from-purple-400 to-pink-400 p-12 rounded-lg text-center mb-6 min-h-32 flex items-center justify-center">

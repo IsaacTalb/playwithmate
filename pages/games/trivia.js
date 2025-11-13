@@ -25,7 +25,7 @@ export default function Trivia() {
 
   return (
     <Layout>
-      <div className="max-w-xl mx-auto p-4">
+      <div>
         <h1 className="text-2xl font-bold mb-2">Trivia</h1>
         <p className="text-gray-600 mb-6">Score: {score}/{trivia.length}</p>
         <div className="bg-white p-6 rounded-lg shadow">

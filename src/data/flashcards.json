@@ -1,22 +1,68 @@
-[
-  {
-    "front": "What does HTML stand for?",
-    "back": "HyperText Markup Language"
-  },
-  {
-    "front": "What does CSS stand for?",
-    "back": "Cascading Style Sheets"
-  },
-  {
-    "front": "What is React?",
-    "back": "A JavaScript library for building user interfaces"
-  },
-  {
-    "front": "What is JavaScript?",
-    "back": "A programming language commonly used for web development"
-  },
-  {
-    "front": "What is Node.js?",
-    "back": "A JavaScript runtime for server-side development"
-  }
-]
+{
+  "Web Development": [
+    {
+      "front": "What does HTML stand for?",
+      "back": "HyperText Markup Language"
+    },
+    {
+      "front": "What does CSS stand for?",
+      "back": "Cascading Style Sheets"
+    },
+    {
+      "front": "What is React?",
+      "back": "A JavaScript library for building user interfaces"
+    },
+    {
+      "front": "What is JavaScript?",
+      "back": "A programming language commonly used for web development"
+    },
+    {
+      "front": "What is Node.js?",
+      "back": "A JavaScript runtime for server-side development"
+    }
+  ],
+  "Spanish": [
+    {
+      "front": "Hello",
+      "back": "Hola"
+    },
+    {
+      "front": "Thank you",
+      "back": "Gracias"
+    },
+    {
+      "front": "Good morning",
+      "back": "Buenos días"
+    },
+    {
+      "front": "How are you?",
+      "back": "¿Cómo estás?"
+    },
+    {
+      "front": "Goodbye",
+      "back": "Adiós"
+    }
+  ],
+  "Science": [
+    {
+      "front": "What is the chemical symbol for Gold?",
+      "back": "Au"
+    },
+    {
+      "front": "How many bones are in the human body?",
+      "back": "206"
+    },
+    {
+      "front": "What is the speed of light?",
+      "back": "299,792,458 m/s"
+    },
+    {
+      "front": "What gas do plants absorb?",
+      "back": "Carbon Dioxide (CO2)"
+    },
+    {
+      "front": "What is the largest planet in our solar system?",
+      "back": "Jupiter"
+    }
+  ]
+}
