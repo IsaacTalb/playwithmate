@@ -27,17 +27,24 @@ const start = ()=>{ setChallenge(SAMPLE[Math.floor(Math.random()*SAMPLE.length)]
 
 return (
 <div className="p-4 max-w-xl mx-auto">
-<h2 className="text-xl font-semibold">Quick Challenge Timer</h2>
-<div className="mt-4">
-<button onClick={start} className="w-full p-3 bg-green-600 text-white rounded">Start 30s Challenge</button>
+    <div className="flex flex-row items-center justify-between mb-6">
+        <h1 className="text-2xl font-bold">Quick Challenge Timer</h1>
+        <a href="/" className="flex items-center gap-2 px-4 py-2 border-2 border-blue-500 text-blue-500 rounded hover:bg-blue-50">
+        <span>🏠</span>
+        Back to Home
+        </a>
+    </div>
+    <div className="mt-4">
+        <button onClick={start} className="w-full p-3 bg-green-600 text-white rounded">Start 30s Challenge</button>
+    </div>
+    {challenge && (
+    <div className="mt-4 bg-white p-4 rounded">
+        <p>{challenge}</p>
+        <p className="text-2xl mt-2">{time}s</p>
+    </div>
+    )}
+    <div className="mt-4"><AdSlot /></div>
 </div>
-{challenge && (
-<div className="mt-4 bg-white p-4 rounded">
-<p>{challenge}</p>
-<p className="text-2xl mt-2">{time}s</p>
-</div>
-)}
-<div className="mt-4"><AdSlot /></div>
-</div>
-)
+
+    )
 }

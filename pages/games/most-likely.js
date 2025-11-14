@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Layout from '../../src/components/Layout'
 import questions from "../../src/data/most_likely.json"
+import AdSlot from '../../src/components/AdSlot'
 
 export default function MostLikely() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -33,6 +34,7 @@ export default function MostLikely() {
             Next
           </button>
         </div>
+        <div className="mt-4"><AdSlot /></div>
       </div>
     </Layout>
   )

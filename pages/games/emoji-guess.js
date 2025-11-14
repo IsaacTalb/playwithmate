@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Layout from '../../src/components/Layout'
 import emojis from '../../src/data/emoji_guesses.json'
+import AdSlot from '../../src/components/AdSlot'
 
 export default function EmojiGuess() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -71,6 +72,7 @@ export default function EmojiGuess() {
             Next
           </button>
         </div>
+        <div className="mt-4"><AdSlot /></div>
       </div>
     </Layout>
   )

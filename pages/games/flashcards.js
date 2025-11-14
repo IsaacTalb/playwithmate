@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import AD from '../../src/components/AdSlot'
+import AdSlot from '../../src/components/AdSlot'
 import flash from '../../src/data/flashcards.json'
 
 
@@ -32,7 +32,7 @@ return (
         <button onClick={()=>setIdx((i)=> i===0?cards.length-1:i-1)} className="flex-1 p-2 rounded bg-gray-200">Prev</button>
         <button onClick={next} className="flex-1 p-2 rounded bg-gray-200">Next</button>
     </div>
-    <div className="mt-4"><AD /></div>
+    <div className="mt-4"><AdSlot /></div>
 </div>
 )
 }

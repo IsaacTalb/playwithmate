@@ -26,7 +26,13 @@ export default function Trivia() {
   return (
     <Layout>
       <div>
-        <h1 className="text-2xl font-bold mb-2">Trivia</h1>
+        <div className="flex flex-row items-center justify-between mb-6">
+            <h1 className="text-2xl font-bold">Trivia</h1>
+            <a href="/" className="flex items-center gap-2 px-4 py-2 border-2 border-blue-500 text-blue-500 rounded hover:bg-blue-50">
+            <span>🏠</span>
+            Back to Home
+            </a>
+        </div>
         <p className="text-gray-600 mb-6">Score: {score}/{trivia.length}</p>
         <div className="bg-white p-6 rounded-lg shadow">
           <p className="text-lg font-semibold mb-6">{question.question}</p>
