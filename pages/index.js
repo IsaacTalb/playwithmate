@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import GameCard from '../src/components/GameCard'
+import PhotoGallery from '../src/components/PhotoGallery'
 import { GAMES } from '../src/utils/catalog'
 
 export default function Home() {
   return (
     <>
-      <header className="py-8">
+      <header className="py-8 bg-gray-200 p-4 rounded-lg shadow-sm">
         <div className="flex items-center justify-center gap-4">
           <img src="/assets/android-chrome-512x512.png" alt="PlayWithMate" className="w-14 h-14" />
           <div className="text-left">
@@ -14,6 +15,13 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      <section className="mt-4 text-center">
+        <div className="inline-block bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 px-4 py-3" role="alert">
+          <p className="font-bold">New Feature:</p>
+          <p className="text-sm">You can now upload your squad photo to create lasting memories and share them on social media!</p>
+        </div>
+      </section>
 
       <section className="mt-6 grid grid-cols-1 gap-4">
         <div className="bg-gradient-to-r from-teal-100 to-white p-4 rounded-lg shadow-sm">
@@ -38,6 +46,10 @@ export default function Home() {
             Tip: Use the <strong>Exit</strong> button on game pages to return here quickly. Want a new game added? Open an issue on the repo.
           </p>
         </div>
+      </section>
+
+      <section className="mt-8">
+        <PhotoGallery />
       </section>
 
       <footer className="mt-8 text-center text-xs text-gray-500">
